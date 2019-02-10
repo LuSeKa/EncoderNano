@@ -9,6 +9,7 @@ class EncoderNano
 	public:
 		EncoderNano();
 		long getCount();
+		void setCount(long pos);
 		void encoderCount_1();
 		void encoderCount_2();
 		

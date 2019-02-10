@@ -10,6 +10,12 @@ long EncoderNano::getCount()
 {
 	return EncoderNano::counter;
 }
+
+void EncoderNano::setCount(long pos)
+{
+	EncoderNano::counter = pos;
+}
+
 // interrupt routines that increment or decrement the counters according to the direction of rotation
 void EncoderNano::encoderCount_1()
 {
